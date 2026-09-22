@@ -146,13 +146,6 @@ println("Data saved to: $filename")
 
 
 
-
-using JLD2, CairoMakie, GLMakie, Printf, Statistics, FFTW
-
-include("../ExtraFunctions/Analytics.jl")
-include("../ExtraFunctions/Structs.jl")
-include("../ExtraFunctions/Simulation_functions.jl")
-
 # --- Run Configuration ---
 filepath = "ClassicalField/Data/$(run_name).jld2"
 output_dir = "ClassicalField/Plots/sites_15"
