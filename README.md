@@ -1,5 +1,4 @@
 # Markdown syntax guide
-fdfgdfgfdfgd
 ## Headers
 
 # This is a Heading h1
